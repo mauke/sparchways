@@ -1,0 +1,8 @@
+This is a very basic terminfo format string interpreter library. It doesn't
+depend on curses or any other library. It also doesn't use global variables, so
+it should be thread-safe.
+
+Basic documentation is in the doc/ directory.
+
+To use it, compile sparchways.c into a library.
+Include "sparchways.h" in your code.
